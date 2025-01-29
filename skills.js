@@ -45,3 +45,7 @@ for (let i = 2; i <= 10; i++) {
   head.appendToTail(i);
 }
 console.log(swapTwoElementsInLinkedList(head).printList()); // 2->1->4->3->6->5->8->7->10->9
+
+function calculateNumbers(var1, var2) {
+  return var1 + var2;
+}
